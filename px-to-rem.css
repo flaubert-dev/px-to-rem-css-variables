@@ -1,4 +1,7 @@
-/* PX to REM: pure CSS */
+/* 
+  > PX to REM: pure CSS 
+  > PX to REM: CSS variables
+*/
 
 :root {
   --px-base: 16;
@@ -11,13 +14,14 @@
 }
 
 /* 
-.header
-.header__nav
-.header__nav-list
-.header__nav-list-li
-.header__nav-list-li-a 
+  > BEM Methodology (Custom)
+    >> .header
+      >>> .header__nav
+        >>>> .header__nav-list
+          >>>>> .header__nav-list-li
+            >>>>>> .header__nav-list-li-a 
 */
 
 .header__nav-list-li-a {
-  font-size: var(--px-20);
+  font-size: var(--px-20); /* PX to REM */
 }
