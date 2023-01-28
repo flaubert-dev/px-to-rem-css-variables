@@ -1,0 +1,23 @@
+/* PX to REM: pure CSS */
+
+:root {
+  --px-base: 16;
+  --px-10: calc(10 / var(--px-base) * 1rem);
+  --px-12: calc(12 / var(--px-base) * 1rem);
+  --px-14: calc(14 / var(--px-base) * 1rem);
+  --px-16: calc(16 / var(--px-base) * 1rem);
+  --px-18: calc(18 / var(--px-base) * 1rem);
+  --px-20: calc(20 / var(--px-base) * 1rem);
+}
+
+/* 
+.header
+.header__nav
+.header__nav-list
+.header__nav-list-li
+.header__nav-list-li-a 
+*/
+
+.header__nav-list-li-a {
+  font-size: var(--px-20);
+}
