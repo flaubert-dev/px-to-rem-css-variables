@@ -1,16 +1,17 @@
 /* 
-  > PX to REM: pure CSS 
-  > PX to REM: CSS variables
+  > Convert PX to REM with CSS variables
+    >> Reference: https://coryrylan.com/blog/converting-css-pixels-to-rems
 */
 
 :root {
   --px-base: 16;
-  --px-10: calc(10 / var(--px-base) * 1rem);
-  --px-12: calc(12 / var(--px-base) * 1rem);
-  --px-14: calc(14 / var(--px-base) * 1rem);
-  --px-16: calc(16 / var(--px-base) * 1rem);
-  --px-18: calc(18 / var(--px-base) * 1rem);
-  --px-20: calc(20 / var(--px-base) * 1rem);
+  --px-to-rem: 1rem;
+  --px-10: calc(10 / var(--px-base) * var(--px-to-rem));
+  --px-12: calc(12 / var(--px-base) * var(--px-to-rem));
+  --px-14: calc(14 / var(--px-base) * var(--px-to-rem));
+  --px-16: calc(16 / var(--px-base) * var(--px-to-rem));
+  --px-18: calc(18 / var(--px-base) * var(--px-to-rem));
+  --px-20: calc(20 / var(--px-base) * var(--px-to-rem));
 }
 
 /* 
