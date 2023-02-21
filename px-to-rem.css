@@ -4,14 +4,44 @@
 */
 
 :root {
+  /* PX TO REM */
   --px-base: 16;
   --px-to-rem: 1rem;
+
+  /* PX TO REM ( 2-10 ) */
+  --px-2: calc(2 / var(--px-base) * var(--px-to-rem));
+  --px-4: calc(4 / var(--px-base) * var(--px-to-rem));
+  --px-6: calc(6 / var(--px-base) * var(--px-to-rem));
+  --px-8: calc(8 / var(--px-base) * var(--px-to-rem));
   --px-10: calc(10 / var(--px-base) * var(--px-to-rem));
+  
+  /* PX TO REM ( 12-20 ) */
   --px-12: calc(12 / var(--px-base) * var(--px-to-rem));
   --px-14: calc(14 / var(--px-base) * var(--px-to-rem));
   --px-16: calc(16 / var(--px-base) * var(--px-to-rem));
   --px-18: calc(18 / var(--px-base) * var(--px-to-rem));
   --px-20: calc(20 / var(--px-base) * var(--px-to-rem));
+
+  /* PX TO REM ( 22-30 ) */
+  --px-22: calc(22 / var(--px-base) * var(--px-to-rem));
+  --px-24: calc(24 / var(--px-base) * var(--px-to-rem));
+  --px-26: calc(26 / var(--px-base) * var(--px-to-rem));
+  --px-28: calc(28 / var(--px-base) * var(--px-to-rem));
+  --px-30: calc(30 / var(--px-base) * var(--px-to-rem));
+
+  /* PX TO REM ( 32-40 ) */
+  --px-32: calc(32 / var(--px-base) * var(--px-to-rem));
+  --px-34: calc(34 / var(--px-base) * var(--px-to-rem));
+  --px-36: calc(36 / var(--px-base) * var(--px-to-rem));
+  --px-38: calc(38 / var(--px-base) * var(--px-to-rem));
+  --px-40: calc(40 / var(--px-base) * var(--px-to-rem));
+
+  /* PX TO REM ( 42-50 ) */
+  --px-42: calc(42 / var(--px-base) * var(--px-to-rem));
+  --px-44: calc(44 / var(--px-base) * var(--px-to-rem));
+  --px-46: calc(36 / var(--px-base) * var(--px-to-rem));
+  --px-48: calc(48 / var(--px-base) * var(--px-to-rem));
+  --px-50: calc(50 / var(--px-base) * var(--px-to-rem));
 }
 
 /* 
@@ -24,5 +54,5 @@
 */
 
 .header__nav-list-li-a {
-  font-size: var(--px-20); /* PX to REM */
+  font-size: var(--px-30); /* PX to REM */
 }
