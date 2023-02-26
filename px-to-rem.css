@@ -39,7 +39,7 @@
   /* PX TO REM: 42-50 */
   --px-42: calc(42 / var(--px-base) * var(--px-to-rem));
   --px-44: calc(44 / var(--px-base) * var(--px-to-rem));
-  --px-46: calc(36 / var(--px-base) * var(--px-to-rem));
+  --px-46: calc(46 / var(--px-base) * var(--px-to-rem));
   --px-48: calc(48 / var(--px-base) * var(--px-to-rem));
   --px-50: calc(50 / var(--px-base) * var(--px-to-rem));
 }
