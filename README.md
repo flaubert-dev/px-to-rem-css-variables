@@ -4,7 +4,7 @@ Now your page will have better accessibility😄
 
 ## References
 
-> W3 schools (Accessibility text size)
+> W3Schools (Accessibility text size)
 
 ```sh
 https://www.w3schools.com/accessibility/accessibility_text_size.php
